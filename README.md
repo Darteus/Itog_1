@@ -27,3 +27,5 @@
 3) Вывод результата. Проверка решения
    print(start_list, '-> ', end ='')
    print(new_list(start_list))
+
+<img width="1470" alt="Снимок экрана 2023-12-09 в 07 59 42" src="https://github.com/Darteus/Itog_1/assets/138676156/6fdcd154-9dce-4129-9a77-b748d3afc662">
