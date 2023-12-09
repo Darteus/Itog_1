@@ -6,5 +6,24 @@
 1) Создаем первоначальный массив 
 - ввод числа (длина массива)
 - ввод элементов массива
+
+'''
+Задача: Написать программу, которая из массива строк формирует новый массив из строк, длина которых <= 3 символам.
+[“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
+[“Russia”, “Denmark”, “Kazan”] → []
+'''
+- count_list = int(input('Введите количество элементов исходного списка: '))
+- start_list = []
+- for i in range(count_list):
+    start_list.append(input('Введите элемент исходного списка: '))
+  
 2) Создаем функцию, решающую поставленную задачу, с формированием нового массива
+   def new_list(list):
+    final_list = []
+    for element in list:
+        if len(element) <= 3:
+            final_list.append(element)
+    return final_list
 3) Вывод результата. Проверка решения
+   print(start_list, '-> ', end ='')
+   print(new_list(start_list))
